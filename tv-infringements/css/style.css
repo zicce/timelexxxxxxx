@@ -1,0 +1,237 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0.3.2
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+body{
+    font-size: 14px
+}
+.mega-menu-item .mega-menu-link{
+    font-weight: 500 !important
+}
+.header-nav.header-nav-main{
+    justify-content: center;
+}
+#mega-menu-primary .mega-sub-menu{
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15) !important;
+}
+footer h4  { 
+    margin-bottom: 15px;
+    text-transform:uppercase
+}
+footer .ux-menu-link a:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #333;
+    margin-left: -11px;
+    margin-right: 5px;
+}
+footer p,
+footer li,
+footer .ux-menu-link a{
+    color: #9e9e9e;
+    font-size: .9em
+}
+.contact-details{
+    list-style: none;
+}
+.contact-details li{
+    margin-left: 0px !important
+}
+.nav-sidebar.nav-vertical>li+li {
+    border-top: 0px solid #ececec;
+}
+.service-icon .col-inner,
+.hover-border .col-inner{
+    border: 1px solid #fff
+}
+.service-icon .col-inner:hover,
+.hover-border .col-inner:hover{
+    border: 1px solid var(--fs-color-primary)
+}
+.hover-border .img{
+    width: 100% !important;
+    background:#147dbe !important;
+    display: block
+}
+.hover-border .img img{
+     width: 75% 
+}
+.icon-advantage img{
+      -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);  
+}
+.icon-advantage .icon-box-left .icon-box-img+.icon-box-text {
+    padding-left: .5em;
+}
+.primary.is-link{
+    color: #111
+}
+.bgblue h2 {
+    color: #fff;
+    margin-bottom: 6px;
+    background-color: #147dbe;
+    padding: 5px 10px;
+    display: inline-flex;
+    width: auto;
+}
+.research-block .col-inner{
+  display:flex;
+  justify-content: center;
+  flex-direction: column
+}
+.research-block .col-inner .button{
+    width: auto;
+    max-width: 120px;
+}
+.p-10{
+    padding: 15px
+}
+input[type=email], input[type=number], input[type=search], input[type=tel], input[type=text], input[type=url], textarea{
+    line-height: 1.42857;
+    padding: 6px 8px;
+    font-size: 14px;
+    vertical-align: middle;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    height: 50px;
+    margin-bottom: 1.5em;
+}
+.client-block{
+    padding: 0 0 24px !important;
+    position: relative;
+}
+.client-block .icon-box-img{
+    background: #147dbe;
+    text-align: center;
+    padding: 1em;
+    z-index: 9;
+    height: 72px;
+}
+.client-block.icon-box:before {
+    left: 36px;
+    border-right-width: 1px;
+    border-right-style: dashed;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: .5em;
+    z-index: 1;
+}
+.client-block.icon-box:last-child:before{
+    display: none
+}
+.client-block h3{
+    margin-bottom: .0em
+}
+.client-contact .col {
+    padding-bottom: 0px
+}
+.genres-block {
+    border: 1px solid #ededed
+}
+.genres-block .col{
+    padding: 0px
+}
+.genres-block .col-inner h3{
+    text-transform: capitalize;
+    padding: 19px 25px;
+    background-color: #f2f2f2;
+    color: #35373e;
+    font-weight: lighter;
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 3px;
+    border-bottom: 9px solid #fff;  
+}
+
+.genres-block .ux-menu-link{
+    padding: 5px 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #9b9b9b38;
+    border-top: unset;
+}
+.widget ul li a:before ,
+.ux-menu-link a:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #333;
+    margin-left: -11px;
+    margin-right: 5px;
+}
+.genres-block .ux-menu-link--active a{
+    color: #fff;
+}
+.genres-block .ux-menu-link--active{
+    background: var(--fs-color-primary);
+}
+.col-breadcrumbs{
+    padding: 7px 0px;
+    border: none !important;
+    background: #147dbe;
+    margin-bottom: 30px;
+}
+.col-breadcrumbs span,
+.col-breadcrumbs a{
+    color: #fff
+}
+.rank-math-breadcrumb p{
+    margin-bottom: 0px
+}
+.page-wrapper {
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+.entry-header-text{
+    text-align:left;
+    padding: 15px 0px !important;
+}
+.blog-post-inner .is-divider,
+.widget .is-divider,
+.entry-header-text .is-divider {
+    display: none
+}
+.widget-title {
+    line-height: 1.4;
+    font-weight: 700;
+    color: #313131;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.genres-blog .ux-menu-link a{
+       border-bottom: 1px solid #9b9b9b38;
+    color:#111;
+    padding-bottom: 5px;
+    margin-bottom: 5px
+}
+.col.post-item .col-inner{
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 0;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+.slider-nav-light .flickity-prev-next-button .arrow, .slider-nav-light .flickity-prev-next-button svg{
+    border-radius: 0px;
+    background: var(--fs-color-primary);
+    border: 0px;
+    opacity:1
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
